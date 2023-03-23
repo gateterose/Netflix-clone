@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: 0;
 }
+ body{
+    background:rgb(0 0 0 / 40%);
+
+    /* background-image:  linear-gradient((to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ; */
+   background-image: url(./images/Screenshot_2023-03-23-16-37-19-568-edit_com.miui.gallery.jpg);
+
+} 
 nav{
     display: flex;
     justify-content: space-between;
@@ -13,12 +20,13 @@ nav img {
     width: 200px;
     margin-left: 7rem;
     padding-top: 2rem;
+    background-color: 0; 
 }
 
 nav button {
     margin-right: 10rem;
     padding: 1rem 2rem;
-    background-color: rgb(235, 12, 56);
+    background-color: rgb(235, 20, 20);
     color: aliceblue;
     font-size: 1rem;
     font-weight: bolder;
@@ -26,12 +34,48 @@ nav button {
 }
 section{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: black;
     color: aliceblue;
-    height: 300px;
+    height: 400px;
     width: 1200px;
     text-align: center;
+}
+.h1{
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+    color:rgb(250, 40, 40);
+}
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.paragraph1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: red;
+} 
+.input{
+    align-items: center;
+}
+.email{
+    padding: 20px 98px;
+    border-radius: 6px;
+    text-align: start;
+    font-size: larger;
+    background: blanchedalmond;
+    
+}
+
+.get{
+    padding: 14px 35px;
+    border-radius: 6px;
+    font-size: 30px;
+    color:aliceblue;
+    background-color: rgb(235, 20, 20);
 }
