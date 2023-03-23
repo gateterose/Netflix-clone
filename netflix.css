@@ -4,12 +4,15 @@
     box-sizing: 0;
 }
  body{
-    background:rgb(0 0 0 / 40%);
+    
+    background-image: url(./images/Screenshot_2023-03-23-16-37-19-568-edit_com.miui.gallery.jpg);
 
     /* background-image:  linear-gradient((to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ; */
-   background-image: url(./images/Screenshot_2023-03-23-16-37-19-568-edit_com.miui.gallery.jpg);
-
-} 
+ }
+ section{
+    background:rgba(0, 0,0,90%);
+    height: 150vh;
+ }
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,7 +23,8 @@ nav img {
     width: 200px;
     margin-left: 7rem;
     padding-top: 2rem;
-    background-color: 0; 
+    background: none;
+    background-color: transparent; 
 }
 
 nav button {
@@ -32,7 +36,7 @@ nav button {
     font-weight: bolder;
     border-radius: 6%;
 }
-section{
+.section{
     position: absolute;
     top: 60%;
     left: 50%;
@@ -41,6 +45,7 @@ section{
     height: 400px;
     width: 1200px;
     text-align: center;
+    background: none;
 }
 .h1{
     font-size: 4rem;
@@ -58,7 +63,6 @@ section{
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
-    color: red;
 } 
 .input{
     align-items: center;
@@ -71,11 +75,10 @@ section{
     background: blanchedalmond;
     
 }
-
 .get{
     padding: 14px 35px;
     border-radius: 6px;
     font-size: 30px;
     color:aliceblue;
-    background-color: rgb(235, 20, 20);
+    background-color:rgb(250, 40, 40);
 }
