@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    height: 40pxpx;
+    width: 200px;
+    margin-left: 7rem;
+    padding-top: 2rem;
+}
+
+nav button {
+    margin-right: 10rem;
+    padding: 1rem 2rem;
+    background-color: rgb(235, 12, 56);
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 6%;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color: aliceblue;
+    height: 300px;
+    width: 1200px;
+    text-align: center;
+}
