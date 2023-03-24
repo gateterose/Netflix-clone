@@ -81,4 +81,5 @@ nav button {
     font-size: 30px;
     color:aliceblue;
     background-color:rgb(250, 40, 40);
+    cursor: pointer;
 }

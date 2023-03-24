@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url(./movies/IMG-20230312-WA0019.jpg);
+}
+section{
+    background:rgba(141, 4, 4, 0.9);
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding: 50px;
+}
+.nav img{
+    width: 110px;
+    height: 120px;
+}
+.input{
+    padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid aliceblue;
+}
+.submit{
+    font-size: 25px;
+    padding: 13px 50px;
+    border-radius: 6px;
+    background-color: rgb(235, 20, 20);
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.navbtn{
+    padding: 17px 70px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(235, 20, 20);
+    color: aliceblue;
+    border-radius: 6px;
+    cursor: pointer;
+
+} 
+.top{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: aliceblue;
+}
+.top button{
+    padding: 14px 50px;
+    font-size: 20px;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    margin-left: 30px;
+    gap: 10px;
+}
+.image{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.H{
+    color: aliceblue;
+    font-size: 50px;
+    color: white;
+}
+img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
